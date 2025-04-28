@@ -1,1 +1,8 @@
 # Task-3
+# Linear Regression 
+In this project, I implemented Simple Linear Regression on the Boston Housing dataset using a clean, modular, function-based coding approach. I selected 'RM' (average number of rooms per dwelling) as the independent feature to predict 'MEDV' (median house value). The data was preprocessed by checking for missing values and then split into training and testing sets. I trained a simple linear regression model using scikit-learn, evaluated it with MAE, MSE, and R² score metrics, and visualized the results by plotting the regression line against the actual data points. The workflow was organized into distinct functions for loading data, training the model, evaluating performance, and plotting, making the project easy to extend and maintain. The final results were saved into a CSV file for further analysis.
+
+# Multi linear Regression
+In this project, I implemented Multiple Linear Regression on the Boston Housing dataset using a modular, function-based approach. I selected four independent features ('RM', 'LSTAT', 'PTRATIO', and 'INDUS') to predict the target variable 'MEDV'. After training the model and evaluating it using MAE, MSE, and R² score, I visualized the relationship between each feature and the target by plotting separate scatter plots with fitted regression lines. This helped demonstrate how individual features influence the house prices. The results, including the model's predictions, were saved for further analysis. The workflow was designed to be clean, organized, and easy to extend.
+
+Apart from these I have also added the linear regression programs from my past programs 
